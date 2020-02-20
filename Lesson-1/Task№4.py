@@ -6,7 +6,7 @@ number = -1
 while number < 0:
     number = int(input('Введите положительное число: '))
 max_answer = -1
-while number > 10:
+while number > 1:
     number_cut = number % 10
     number = number // 10
     if number_cut > max_answer:
