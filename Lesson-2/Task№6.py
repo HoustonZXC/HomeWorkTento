@@ -42,7 +42,6 @@ while i <= count_of:
     i += 1
 analysis = dict({'Название': Names, 'Цена': Price, 'Количество': Count, 'Ед': bruh})
 my_list = tuple(my_list)
-analysis = tuple(analysis)
 print(my_list)
 print(analysis)
 # print(f'Название: {Names}\nЦена: {Price}\nКоличество: {Count}\nЕд: {bruh}')
